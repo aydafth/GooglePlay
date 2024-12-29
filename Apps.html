@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/logoAppsone.js" defer></script>
+    <script src="./assets/js/logoAppTwo.js"defer></script>
+    <script src="./assets/js/app1.js"defer ></script>
+    <script src="./assets/js/logoAppThree.js"defer></script>
+    <script src="./assets/js/logoAppFour.js"defer></script>
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bs-body-bg border-bottom fixed-top shadow">
+        <div class="container-fluid  ">
+            <img class="size-icon-googleplay" src="./assets/Images/1664286061google-play-logo-transparent-ba-esmesh.png"
+                alt="logo-google-play">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                <ul class=" navbar-nav ms-3 me-auto mb-2 mb-lg-0 nav-underline pt-2 ">
+                    <li class="nav-item hideable">
+                        <a class="nav-link  link-success link-offset-3 link-underline-opacity-100 link-underline-opacity-100-hover "
+                            href="./index.html" >Games</a>
+                    </li>
+                    <li class="nav-item hideable">
+                        <a class="nav-link  link-success link-offset-3 link-underline-opacity-25 link-underline-opacity-100-hover "
+                            href="./Apps.html" >Apps</a>
+                    </li>
+                    <li class="nav-item hideable">
+                        <a class="nav-link  link-success link-offset-3 link-underline-opacity-25 link-underline-opacity-100-hover "
+                            href="./Kids.html" >Kids</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="div d-flex ">
+                <div class="div d-flex">
+                    <div id="searchBox" class="">
+                        <input type="text" class="form-control searchBoxSize" placeholder="Search...">
+                    </div>
+                    <img class="me-4 searchIconSize" id="searchButton"
+                        src="./assets/Icons/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (2).svg" alt="">
+                    <div id="searchOverlay" class="overlay d-lg-none  ">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">
+                            <img class="mt-2 ms-3"
+                                src="./assets/Icons/arrow_back_24dp_666666_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+                        <div class="overlay-content">
+                            <input type="text" class="" placeholder="Search for apps & games">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="dropdown align-content-center ">
+                    <a class=" " href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="me-4 " src="./assets/Icons/help_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-help mt-5 ms-3 ">
+                        <div class="row">
+                            <div class="div d-flex">
+                                <div class="col-lg-10 ">
+                                    <h5 class="">Helpe</h5>
+                                </div>
+                                <div class="col-lg-2 "><button type="button" class="btn-close"
+                                        aria-label="Close"></button></div>
+
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+                <img class="size-icon-account "
+                    src="./assets/Icons/account_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+
+            </div>
+        </div>
+    </nav>
+    <!-- پایان navbar -->
+    <div class="container-fluid bodyCountainer">
+        <div class="row ">
+            <div class="col-lg-12 col-sm-12 ">
+                <button type="button"
+                    class=" btn  btn-outline-success  rounded-5 btn-sm pe-3 ps-3 me2  fw-bold">
+                    <img class="iconsButtonSize"
+                        src="./assets/Icons/phone_iphone_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    Phone</button>
+                <button type="button"
+                    class="btn btn-outline-success rounded-5 btn-sm pe-3 ps-3 me-2  fw-bold">
+                    <img class="iconsButtonSize"
+                        src="./assets/Icons/tablet_mac_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    Tablet</button>
+                <button type="button"
+                    class="btn btn-outline-success rounded-5 btn-sm pe-3 ps-3 me-2  fw-bold">
+                    <img class="iconsButtonSize" src="./assets/Icons/tv_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"
+                        alt=""> Tv</button>
+                <button type="button"
+                    class="btn btn-outline-success rounded-5 btn-sm pe-3 ps-3 me-2  fw-bold">
+                    <img class="iconsButtonSize"
+                        src="./assets/Icons/laptop_chromebook_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    Chromebook</button>
+                <button type="button"
+                    class="btn btn-outline-success rounded-5 btn-sm pe-3 ps-3 me-2  fw-bold">
+                    <img class="iconsButtonSize" src="./assets/Icons/watch_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"
+                        alt=""> Watch</button>
+            </div>
+        </div>
+        <!-- برای دکمه های بالا chromebook -->
+    </div>
+    <div class="container-fluid bodyCountainer">
+        <div class="row mt-4 ">
+            <h4>Top charts</h4>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12 col-sm-12 ">
+                <button type="button"
+                    class=" btn  btn-outline-success  rounded-5 btn-sm pe-3 ps-3 me-2  fw-bold">
+
+                    Top free</button>
+                <button type="button"
+                    class="btn btn-outline-success rounded-5 btn-sm pe-3 ps-3 me-2  fw-bold">
+
+                    Top groosing</button>
+                <button type="button"
+                    class="btn btn-outline-success rounded-5 btn-sm pe-3 ps-3 me-2  fw-bold">
+                    Top paid</button>
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="row" id="card-section"></div>
+            <div class="nav-button left-button justify-content-end hide-on-mobile" id="prev-button"
+                onclick="moveLeft1()">
+                <img src="./assets/Icons/arrow_back_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+            <div class="nav-button right-button hide-on-mobile" id="next-button" onclick="moveRight1()">
+                <img src="./assets/Icons/arrow_forward_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+        </div>
+        <div class="row mt-5 ">
+            <h4>Recommended for you</h4>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-lg-12 overflow-hidden d-flex" id="videoCardContainer-1">
+            </div>
+            <div class="nav-button left-button justify-content-end hide-on-mobile" id="previousButton-1"
+                onclick="navigateLeft1()">
+                <img src="./assets/Icons/arrow_back_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+            <div class="nav-button right-button hide-on-mobile" id="nextVideoButton-1" onclick="navigateRight1()">
+                <img src="./assets/Icons/arrow_forward_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+        </div>
+        <div class="row mt-3 ">
+            <h4>Communication</h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-12 overflow-hidden d-flex" id="videoCardContainer-2">
+            </div>
+            <div class="nav-button left-button justify-content-end hide-on-mobile" id="previousButton-2"
+                onclick="navigateLeft2()">
+                <img src="./assets/Icons/arrow_back_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+            <div class="nav-button right-button hide-on-mobile" id="nextVideoButton-2" onclick="navigateRight2()">
+                <img src="./assets/Icons/arrow_forward_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+        </div>
+        <div class="row mt-3 ">
+            <h4>Video editors & players</h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-12 overflow-hidden d-flex" id="videoCardContainer-3">
+            </div>
+            <div class="nav-button left-button justify-content-end hide-on-mobile" id="previousButton-3"
+                onclick="navigateLeft3()">
+                <img src="./assets/Icons/arrow_back_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+            <div class="nav-button right-button hide-on-mobile" id="nextVideoButton-3" onclick="navigateRight3()">
+                <img src="./assets/Icons/arrow_forward_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+        </div>
+        <div class="row mt-3 ">
+            <h4>Productivity</h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-12 overflow-hidden d-flex" id="videoCardContainer-4">
+            </div>
+            <div class="nav-button left-button justify-content-end hide-on-mobile" id="previousButton-4"
+                onclick="navigateLeft4()">
+                <img src="./assets/Icons/arrow_back_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+            <div class="nav-button right-button hide-on-mobile" id="nextVideoButton-4" onclick="navigateRight4()">
+                <img src="./assets/Icons/arrow_forward_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+        </div>
+    </div>
+    
+   <div class="container-fluid bodyCountainer mt-5">
+    <div class="row border-top d-flex">
+    <div class="col-lg-3 mt-5">
+        <h6>Google Play</h6>
+        <p class="mt-3">play pass</p>
+        <p>Play pointer</p>
+        <p>Gift card</p>
+        <p>Redoom</p>
+    </div>
+    <div class="col-lg-3 mt-5">
+        <h6>Kids & family</h6>
+        <p class="mt-3">print Guied</p>
+        <p>Family sharing</p>
+       
+    </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-lg-6 d-flex">
+            <p class="fontSizeText ">terms of server</p>
+            <p class="fontSizeText ms-4">privecy</p>
+            <p class="fontSizeText ms-4">about googlr play</p>
+            <p class="fontSizeText ms-4">developers</p>
+            <p class="fontSizeText ms-4">google store</p>
+        </div>
+    </div>
+   </div>
+
+   
+
+</body>
+</html>

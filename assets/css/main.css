@@ -1,0 +1,210 @@
+@charset "UTF-8";
+@media (max-width: 768px) {
+  .nav-icon {
+    display: none !important;
+  }
+}
+body {
+  margin-top: 90px;
+}
+body .bodyCountainer {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+body .size-icon-googleplay {
+  width: 160px;
+  margin-left: 15px;
+}
+body .size-icon-account {
+  width: 35px;
+  margin-right: 5px;
+}
+body .dropdown-help {
+  border-radius: 15px;
+  width: 350px;
+  height: 650px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+body #searchBox {
+  display: none;
+}
+body .hideable {
+  display: block;
+}
+body .searchBoxSize {
+  width: 700px;
+  height: 50px;
+  margin-right: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+body .searchIconSize {
+  width: 50%;
+}
+body .iconsButtonSize {
+  width: 15px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+body .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+body .overlay-content {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border-bottom: solid 1px rgba(150, 150, 155, 0.575);
+  padding-bottom: 5px;
+}
+body .overlay .closebtn {
+  position: absolute;
+}
+body .overlay input {
+  margin: auto;
+  display: block;
+  width: 80%;
+  border: none;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+body .fixed-top {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+body .card {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+}
+body .card:hover {
+  background-color: #f0f0f0;
+  /* تنظیم رنگ طوسی کمرنگ برای حالت هاور */
+}
+body .nav-icon {
+  position: absolute;
+  margin-top: 200px;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: none;
+  /* Initially hidden */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+body .left-icon {
+  left: 300px;
+}
+body .right-icon {
+  right: 300px;
+}
+body .card-container:hover .nav-icon {
+  display: flex;
+}
+body .logoAppSizeCard {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+body .imgSizeCard {
+  height: 250px;
+}
+body .card-item {
+  border: none;
+  border-radius: 10px;
+}
+body .card-item:hover {
+  background-color: #f0f0f0;
+}
+body .nav-button {
+  position: absolute;
+  margin-top: 120px;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: none;
+  /* Initially hidden */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+body .left-button {
+  left: 300px;
+}
+body .right-button {
+  right: 300px;
+}
+body .card-container:hover .nav-button {
+  display: flex;
+}
+body .cardVideoApp {
+  width: 160px;
+  height: 230px;
+  padding: 5px;
+}
+body .sizeButtonMore {
+  width: 100px;
+}
+body .imgBoxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+body .imgSizeLogoAppOne {
+  width: 140px;
+}
+body .fontSizeText {
+  font-size: 15px;
+}
+body .backGrandImage {
+  background-color: rgb(62, 214, 149);
+}
+body .user-initials {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+body .backGrandImageTwo {
+  background-color: rgb(52, 212, 224);
+}
+body .sizeCardDetileImge {
+  width: 220px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 60%;
+}
+body .fontSizeLOgoApp {
+  font-size: 50px;
+}
+body .fontSizeTextTwo {
+  font-size: 12px;
+  color: rgba(68, 67, 67, 0.7607843137);
+}
+body .SizeButten {
+  height: 40px;
+  border: none;
+}
+
+/*# sourceMappingURL=main.css.map */
